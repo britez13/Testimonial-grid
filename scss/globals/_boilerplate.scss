@@ -26,5 +26,9 @@ body {
     @include u.breakpoint(medium) {
         margin: 7rem 1rem;
     }
+
+    @include u.breakpoint(xlarge) {
+        margin: 10rem 1rem;
+    }
 }
 
