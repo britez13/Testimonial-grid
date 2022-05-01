@@ -31,6 +31,11 @@ body {
   height: auto;
   margin: 3rem 1rem;
 }
+@media (min-width: 600px) {
+  body {
+    margin: 7rem 1rem;
+  }
+}
 
 .grid {
   max-width: 108rem;

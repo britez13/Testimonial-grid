@@ -1,4 +1,6 @@
 
+@use '../util/' as u;
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -20,5 +22,9 @@ body {
     color: var(--white);
     height: auto;
     margin: 3rem 1rem ;
+
+    @include u.breakpoint(medium) {
+        margin: 7rem 1rem;
+    }
 }
 
